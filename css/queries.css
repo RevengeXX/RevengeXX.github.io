@@ -1,0 +1,32 @@
+/*   Big  size Tablets to 1200px */
+@media only screen and (max-width:1200px){}
+
+
+
+/*   Big  size Tablets 768-1023px */
+@media only screen and (max-width:1023px){}
+
+
+
+    /*   Medium size Tablets 481-767px */
+@media only screen and (max-width:767px){}
+
+
+    /*   Small phones 0-481px */
+@media only screen and (max-width:481px){
+    h1{
+        font-size: 30px;
+    }
+    .btn{
+        width: 20px;
+        height: 20px;
+    }
+
+    .social {
+        display: inline-block;}
+    .social li{
+        display: inline-block;
+        padding: 0 2px;
+        margin: 0 2px;
+    }
+}
